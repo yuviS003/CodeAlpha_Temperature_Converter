@@ -1,5 +1,11 @@
+import TempPicker from "./components/TempPicker";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <TempPicker />
+    </div>
+  );
 };
 
 export default App;
